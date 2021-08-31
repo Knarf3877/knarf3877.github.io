@@ -5,7 +5,7 @@ body {
 footer {
 	background-color: #dedede;
 	overflow: hidden;
-	float: left;
+	float: center;
 	display: block;
 	color: #3a3a3a;
 	text-align: left;
