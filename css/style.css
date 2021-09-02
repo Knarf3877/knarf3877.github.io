@@ -8,18 +8,22 @@ footer {
 	float: center;
 	display: block;
 	color: #3a3a3a;
+	padding: 14px 16px;	
 	text-align: left;
-	padding: 14px 16px ;
-	width: screen.width - 16px;
+	width: screen.width-16px;
 	text-decoration: none;
 	font-size: 17px;
 }
+h2 {
+font-size: 30px;
 
+}
 /* Add a black background color to the top navigation */
 
 .topnav {
 	background-color: #dedede;
 	overflow: hidden;
+	
 }
 
 /* Style the links inside the navigation bar */
@@ -94,4 +98,9 @@ footer {
 
 .social-button {
 	text-align: center;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
 }
