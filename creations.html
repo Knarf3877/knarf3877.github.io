@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
+
+  <title>Frank Rong</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="shortcut icon" href="myicon.ico" type="image/x-icon">
+  <link rel="icon" href="myicon.ico" type="image/x-icon">
+
+
+  <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"sameAs": [
+				"https://discord.com/users/466596607484493824/",
+				"https://github.com/Knarf3877",
+				"https://www.instagram.com/frank.is.rong/",
+				"https://www.linkedin.com/in/frank-rong-32a941210/"
+		]
+}</script>
+</head>
+
+<body>
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html"> <img src="./img/1.gif" alt="pfp" style="width: 50px; height: 40px;"><h2 style="display:inline">Frank Rong</h2></a>
+    <a href="./contact">Contact</a>
+    <a href="./about">About</a>
+    <a href="./misc">Misc</a>
+    <a href="./creations">Creations</a>
+
+    <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div style="text-align: center;">
+    <h2>It's me, Frank</h2>
+    <p>Hello!</p>
+  </div>
+
+  <script>
+    function hamburgerMenu() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+
+
+
+  <!-- Footer -->
+  <div class="footer-padding" style="height: 43px;"></div>
+  <footer class="footer">
+    <div class="social-button">
+    <a href="https://discord.com/users/466596607484493824/"><img src="./img/discord.svg" alt="Discord" style="width:20px;height:20px;"></a>
+    <a href="https://github.com/Knarf3877"><img src="./img/github.svg" alt="Github" style="width:20px;height:20px;"></a>
+    <a href="https://www.instagram.com/frank.is.rong/"><img src="./img/instagram.svg" alt="Instagram" style="width:20px;height:20px;"></a>
+    <a href="https://www.linkedin.com/in/frank-rong-32a941210/"><img src="./img/linkedin.svg" alt="Linkedin" style="width:20px;height:20px;"></a>
+    
+  
+    <span> <br>Copyright © Frank Rong <span id="copyYear">2021</span>
+    </span></div>
+  </footer>
+
+  <!-- JavaScript libraries -->
+  <script type="module" async="" defer="" src="/js/main.js"></script>
+
+</body>
+
+</html>
