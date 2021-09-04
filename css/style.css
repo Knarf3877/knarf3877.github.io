@@ -15,9 +15,9 @@ footer {
 	font-size: 17px;
 }
 h2 {
-font-size: 17px;
-
+font-size: 25px;
 }
+
 /* Add a black background color to the top navigation */
 
 .topnav {
@@ -25,7 +25,19 @@ font-size: 17px;
 	overflow: hidden;
 	
 }
+.sussy{
+	float: left;
+	display: block;
+	color: #3a3a3a;
+	text-align: center;
 
+	text-decoration: none;
+	font-size: 17px;
+	padding:  10px 12px;
+}
+.baka{
+	padding: 14px 16px;
+}
 /* Style the links inside the navigation bar */
 
 .topnav a {
@@ -33,7 +45,7 @@ font-size: 17px;
 	display: block;
 	color: #3a3a3a;
 	text-align: center;
-	padding: 14px 16px;
+
 	text-decoration: none;
 	font-size: 17px;
 }
